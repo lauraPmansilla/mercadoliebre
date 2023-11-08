@@ -1,0 +1,401 @@
+
+/*ESTILOS GENERALES*/
+
+*{
+    margin: 0px;
+    padding: 0px;    
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+h3{
+    font-size: 24px;
+}
+
+p{
+    font-size: 12px;
+}
+
+/* HEADER*/
+div.top-header{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+}
+
+header div.top-header p{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+header{
+    background-color: #EAC926;
+}
+
+header div.logo,
+header .form{
+    width: 50%;
+    
+}
+
+header div.logo{
+    padding: 10px;
+}
+header .form{
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    font-size: 11px;
+}
+header nav{
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+header ul li{
+    list-style-type: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+header .form .input{
+    background-color: #FFF;
+    border: 1px solid #807e7e;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgb(180, 179, 179);
+    outline: none;
+    color: #666;
+    padding: 2px;
+    margin-right:1px;
+}
+
+header .form .submit{
+   
+    border: none;
+    color: #666;
+    width: 40px;
+    text-align: center;
+    
+
+}
+
+.promo-pago{
+    
+    font-weight: bold;
+    font-size: 24px;
+}
+
+div.burger-menu{
+    text-align: center;
+}
+
+div.burger-menu i{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+}
+
+div.last-visit,
+div.offers{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*PRODUCTOS*/
+
+.price{
+    font-size: 18px;
+    width: 30%;
+}
+
+.discount{
+    width: 70%;
+    margin-left: 5px;
+}
+
+.discount,
+.description{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+h3,
+.description{
+    color: #666;
+}
+
+.description{
+    display: none;
+    margin-top: 20px;
+}
+
+section.banner img{
+    width: 100%;
+}
+
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+main section article{
+    background-color: #fff;    
+    margin: 10px 0px;
+}
+
+main section article img{
+    width: 100%;
+}
+
+main section article i,
+.discount{
+    color: #39b54a;
+}
+
+main section article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+main section h3{
+    margin: 20px 0px;
+}
+
+main section div.products article i{
+    transition: transform 1s;
+}
+
+main section div.products article:hover i{
+    transform: rotate(-90deg);
+}
+
+article div.main-article{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    border-top: 1px solid #ebebeb;
+    position: relative;
+    padding: 15px;
+}
+main section article:hover{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+main section article:hover .description{
+    display: block;
+}
+
+
+/* REGISTRO */
+.register {
+    
+    margin:  60px auto 60px auto;
+    background-color: #ffffff;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.titulo-form {
+    font-weight: bold;
+    font-size: 14px;
+    color:#0044AA;
+    margin: 5px 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.profile {
+    text-align: left;
+    font-size: small
+}
+
+.interests {
+    text-align: left;
+    font-size: small;
+}
+
+.button-container {
+    text-align: center;
+    
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+/* Estilos de botón con hover */
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #0056b3;
+}
+
+
+/*LOGIN*/
+
+.login {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    margin:  60px auto 60px auto;
+}
+
+/*LOGIN*/
+.encabezado-login {
+    font-weight: bold;
+    color: #0044AA;
+    font-size: medium;
+}
+
+.login form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.login input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.login input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+.olvido-contrasenia {
+    font-size: medium;
+    color: #0044AA;
+    text-align: center;
+}
+
+/*FOOTER*/
+
+footer {
+    
+    padding: 20px;
+    text-align: center;
+    margin: 40px 38px;
+}
+
+.footer-section {
+    width: 100%; 
+    padding: 10px;
+    text-align: left;
+}
+
+.footer-section i {
+    font-size: 20px;
+    color: #0044AA;
+    margin-right: 10px;
+}
+
+.footer-section h3 {
+    color: #0044AA;
+    font-size: medium;
+}
+
+
+.footer-section p {
+    font-size: 14px;
+    color: #333;
+    font-style: italic;
+}
+
+
+
+
+@media (min-width: 361px){
+    main section div.products{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    main section div.products article{
+        width: 45%;
+    }
+
+    .price,
+    .discount{
+        width: 50%;
+    }
+}
+
+@media (min-width: 769px){
+    main section div.products article{
+        width: 22%;
+    }
+}
