@@ -15,7 +15,7 @@ https://mercadoliebre-lauramansilla.onrender.com/
 ![image](https://github.com/lauraPmansilla/mercadoliebre/assets/146298020/892a563c-9fd6-406c-b986-a64cf33a66c3)
 
 
-# Detalle Regristro
+# Detalle Registro
 
 ![image](https://github.com/lauraPmansilla/mercadoliebre/assets/146298020/5d359c1c-2260-4d29-bd64-12d522f75820)
 
